@@ -1,4 +1,4 @@
-#CKA training and good to remembers :)
+# CKA training and good to remembers :)
 
 when you init a cluster, with that output is a pre-created `kubeadm- join`, with that command is a token and a sha256 key. For many reasons that command won't last. The token only lasts 2 hours and typically you can forget / lose the sha key. Below are the commands to run so that you can coalesce all the pieces without the pre-generated `kubeadm join` command.
 
